@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App Music Streaming</title>
+</head>
+<body>
+    <h1>App Music Streaming</h1>
+    <h5>Compila il form con le tue informazioni!</h5>
+    <div class="container">
+        <form onsubmit="alert('Registrazione inviata!')">
+            <div>
+              <label>Nome</label>
+              <input type="text" placeholder="Inserisci il tuo nome"/>
+              <label>Cognome</label>
+              <input type="text" placeholder="Inserisci il tuo cognome"/>
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="email" placeholder="Inserisci la tua email"/>
+              <label>Password</label>
+              <input type="password" placeholder="Inserisci la tua password"/>
+            </div>
+            <div>
+                <label>Data di nascita</label>
+                <input type="date" placeholder="Inserisci la tua data di nascita"/>
+                <label>Telefono</label>
+                <input type="tel" placeholder="Inserisci il telefono"/>
+            </div>
+            <div>
+                <h4>Seleziona i tuoi gusti musicali</h4>
+                <label>R&B</label>
+                <input type="checkbox" value="R&B"/>
+                <label>POP</label>
+                <input type="checkbox" value="POP"/>
+                <label>Classica</label>
+                <input type="checkbox" value="Classica"/>
+                <label>Rap</label>
+                <input type="checkbox" value="Rap"/>
+            </div>
+            <div>
+                <label>Accetta i termini e le condizioni</label>
+                <input type="radio" value="Termini&condizioni"/>
+            </div>
+            <button type="submit">Invia Registrazione!</button>
+           
+        </form>
+    </div>
+</body>
+</html>
